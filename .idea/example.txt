@@ -1,0 +1,8 @@
+s3 cp       s3://bucket/file.ext    file.txt
+s3 cp       file.ext                s3://bucket/file.ext
+s3 mv       s3://bucket/file.ext    s3://bucket/dir/file.ext
+s3 rm       s3://bucket/file.ext
+s3 mkbuck   yuhuuu
+s3 chmod    s3://bucket/file.ext    public
+s3 chmod    s3://bucket/file.ext    private
+s3 share    s3://bucket/file.ext
